@@ -83,7 +83,6 @@ export default function Navbar() {
           </p>
         </div>
         <div className="flex space-x-4">
-          {/* Toggle Timer Button */}
           <button
             onClick={toggleTimer}
             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200"
