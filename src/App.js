@@ -23,7 +23,6 @@ const AppLayout = ({ children }) => {
 
 const App = () => {
   const navigate = useNavigate();
-
   const isLoggedIn = !!localStorage.getItem("token");
 
   React.useEffect(() => {
@@ -48,7 +47,6 @@ const App = () => {
                 <Route path="/gamehistory" element={<GameHistory />} />
                 <Route path="/algorithm" element={<Algorithm />} />
                 <Route path="/ntp" element={<Ntp />} />
-
               </Routes>
             </AppLayout>
           }
